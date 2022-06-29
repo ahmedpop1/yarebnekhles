@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace PharmacyStock
 {
-    public partial class Form1 : Form
+    public partial class supp: Form
     {
-        public Form1()
+        public supp()
         {
             InitializeComponent();
+        }
+
+        private void supp_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
