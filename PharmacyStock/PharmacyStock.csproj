@@ -95,6 +95,12 @@
     <Compile Include="Modification2.Designer.cs">
       <DependentUpon>Modification2.cs</DependentUpon>
     </Compile>
+    <Compile Include="SMP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMP.Designer.cs">
+      <DependentUpon>SMP.cs</DependentUpon>
+    </Compile>
     <Compile Include="supp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modification2.resx">
       <DependentUpon>Modification2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMP.resx">
+      <DependentUpon>SMP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="supp.resx">
       <DependentUpon>supp.cs</DependentUpon>
