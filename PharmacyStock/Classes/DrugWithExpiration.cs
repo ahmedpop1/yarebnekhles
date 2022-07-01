@@ -10,6 +10,8 @@ namespace PharmacyStock.Classes
 {
     internal class DrugWithExpiration
     {    [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
         public int ID { get; set; }
 
         [ForeignKey("Drug")]
