@@ -83,6 +83,12 @@
     <Compile Include="Category.Designer.cs">
       <DependentUpon>Category.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Drug.cs" />
+    <Compile Include="Classes\Pharmacist.cs" />
+    <Compile Include="Classes\PharmacyContext.cs" />
+    <Compile Include="Classes\Supplier.cs" />
+    <Compile Include="Classes\SupplyBill.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="modification.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,6 +175,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
