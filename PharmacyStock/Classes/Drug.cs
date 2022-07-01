@@ -18,8 +18,7 @@ namespace PharmacyStock.Classes
         public decimal? StorageTemprature { get; set; }
         [Column("Price", TypeName = "money")]
         public decimal Price { get; set; }
-        public DateTime ManufacturingDate { get; set; }
-        public DateTime ExpireDate { get; set; }
-        public List<SupplyBill> SupplyBills { get; set; }
+      
+       
     }
 }
