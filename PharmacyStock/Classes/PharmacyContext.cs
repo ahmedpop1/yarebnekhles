@@ -11,10 +11,16 @@ namespace PharmacyStock.Classes
     {
         public PharmacyContext() : base("name=DefaultConnection")
         { }
+        public DbSet<Drug> Drugs { get; set; }
+        public DbSet<DrugInSuppliedBill> DrugsInSuppliedBill { get; set; }
 
-        public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<DrugWithExpiration> DrugsWithExpiration { get; set; }
         public DbSet<Pharmacist> pharmacists { get; set; }
-        public DbSet<SupplyBill> supplyBills { get; set; }  
+        public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<SupplyBill> supplyBills { get; set; }
+
+
+
 
     }
 }

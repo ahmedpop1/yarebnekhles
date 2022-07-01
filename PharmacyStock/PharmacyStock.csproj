@@ -84,6 +84,8 @@
       <DependentUpon>Category.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\Drug.cs" />
+    <Compile Include="Classes\DrugInSuppliedBill.cs" />
+    <Compile Include="Classes\DrugWithExpiration.cs" />
     <Compile Include="Classes\Pharmacist.cs" />
     <Compile Include="Classes\PharmacyContext.cs" />
     <Compile Include="Classes\Supplier.cs" />

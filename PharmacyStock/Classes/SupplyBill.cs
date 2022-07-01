@@ -11,6 +11,8 @@ namespace PharmacyStock.Classes
     internal class SupplyBill
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
         public int ID { get; set; }
         [ForeignKey("pharmacist")]
         public int PharmacistID { get; set; }
@@ -18,14 +20,13 @@ namespace PharmacyStock.Classes
         public int SupplierID { get; set; }
        
        // [ForeignKey("Drug")]
-        public int DrugID { get; set; }
-        public int Drugamount { get; set; }
+       // public int DrugID { get; set; }
         public int TotalPrice { get; set; }
         public DateTime DateofEntry { get; set; }
        // public int MyProperty { get; set; }
         public Supplier Supplier { get; set; }
         public Pharmacist pharmacist { get; set; }
-        public List<Drug> Drugs { get; set; }
+       // public List<DrugInSuppliedBill> DrugsInSuppliedBill { get; set; }
 
 
 
