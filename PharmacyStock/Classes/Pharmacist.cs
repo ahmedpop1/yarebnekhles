@@ -15,8 +15,10 @@ namespace PharmacyStock.Classes
 
         public int ID { get; set; }
         public int BranchID { get; set; }
+        [Required]
         public string Name { get; set; }
-        public int MobileNumber { get; set; }
+        
+        public string MobileNumber { get; set; }
 
         public virtual List<SupplyBill> supplyBills { get; set; }
 
