@@ -18,6 +18,36 @@ namespace PharmacyStock.Classes
         public DbSet<Pharmacist> pharmacists { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<SupplyBill> supplyBills { get; set; }
+        public DbSet<Account> Accounts { get; set; }
+        public DbSet<Branch> Branchs { get; set; }
+        public DbSet<Manger> Mangers { get; set; }
+
+        public DbSet<Stored_Drug> Stored_Drugs { get; set; }
+
+        public DbSet<Sell_Bill> Sell_Bills { get; set; }
+
+
+        public DbSet<DrugIn_SoldBill> drugIn_SoldBills { get; set; }
+
+        public DbSet<Replace_Drug> Replace_Drugs { get; set; }
+
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+        //    base.OnModelCreating(modelBuilder);
+
+        //    modelBuilder.Entity<Stored_Drug>()
+        //        .HasKey(c => new { c.Branch_ID, c.DrugWithExpirationID });
+        //}
+
+
+
+
+
+
+
+
+
+
 
 
 

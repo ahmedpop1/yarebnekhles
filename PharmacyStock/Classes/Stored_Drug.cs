@@ -8,28 +8,22 @@ using System.Threading.Tasks;
 
 namespace PharmacyStock.Classes
 {
-    internal class Pharmacist
+    internal class Stored_Drug
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public int MobileNumber { get; set; }
-
+        [Column(Order = 0)]
         [ForeignKey("Branch")]
         public int Branch_ID { get; set; }
-
         public Branch Branch { get; set; }
-
-        public virtual List<SupplyBill> supplyBills { get; set; }
-
-        public virtual Account Accounts { get; set; }
-
-
-
+        [Key]
+        [ForeignKey("Drugs")]
+        [Column(Order = 1)]
+        public int DrugWithExpirationID { get; set; }
+        public DrugWithExpiration Drugs { get; set; }
 
 
+        public int Quantity_Exist { get; set; }
 
+       
     }
 }
