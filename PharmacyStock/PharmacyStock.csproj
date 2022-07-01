@@ -90,6 +90,12 @@
     <Compile Include="Classes\PharmacyContext.cs" />
     <Compile Include="Classes\Supplier.cs" />
     <Compile Include="Classes\SupplyBill.cs" />
+    <Compile Include="cust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cust.Designer.cs">
+      <DependentUpon>cust.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="modification.cs">
       <SubType>Form</SubType>
