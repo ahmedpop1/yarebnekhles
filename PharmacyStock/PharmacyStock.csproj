@@ -138,11 +138,19 @@
     <Compile Include="SMP.Designer.cs">
       <DependentUpon>SMP.cs</DependentUpon>
     </Compile>
+
     <Compile Include="pur.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="pur.Designer.cs">
       <DependentUpon>pur.cs</DependentUpon>
+
+    <Compile Include="cust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cust.Designer.cs">
+      <DependentUpon>cust.cs</DependentUpon>
+
     </Compile>
     <Compile Include="supp.cs">
       <SubType>Form</SubType>
@@ -150,11 +158,19 @@
     <Compile Include="supp.Designer.cs">
       <DependentUpon>supp.cs</DependentUpon>
     </Compile>
+
     <Compile Include="pur_add.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="pur_add.Designer.cs">
       <DependentUpon>pur_add.cs</DependentUpon>
+
+    <Compile Include="cust_add .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cust_add .Designer.cs">
+      <DependentUpon>cust_add .cs</DependentUpon>
+
     </Compile>
     <Compile Include="supp_add.cs">
       <SubType>Form</SubType>
@@ -194,14 +210,24 @@
     <EmbeddedResource Include="SMP.resx">
       <DependentUpon>SMP.cs</DependentUpon>
     </EmbeddedResource>
+
     <EmbeddedResource Include="pur.resx">
       <DependentUpon>pur.cs</DependentUpon>
+
+    <EmbeddedResource Include="cust.resx">
+      <DependentUpon>cust.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="supp.resx">
       <DependentUpon>supp.cs</DependentUpon>
     </EmbeddedResource>
+
     <EmbeddedResource Include="pur_add.resx">
       <DependentUpon>pur_add.cs</DependentUpon>
+
+    <EmbeddedResource Include="cust_add .resx">
+      <DependentUpon>cust_add .cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="supp_add.resx">
       <DependentUpon>supp_add.cs</DependentUpon>
