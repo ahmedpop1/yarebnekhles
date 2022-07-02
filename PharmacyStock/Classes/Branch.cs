@@ -18,5 +18,10 @@ namespace PharmacyStock.Classes
 
 
         public ICollection<Pharmacist> Pharmacists { get; set; }
+       // public ICollection<Branch> branchess { get; set; }
+
+        //public List<Stored_Drug> Stored_Drug { get; set; }
+
+
     }
 }

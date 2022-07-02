@@ -35,11 +35,23 @@ namespace PharmacyStock.Classes
         //{
         //    base.OnModelCreating(modelBuilder);
 
-        //    modelBuilder.Entity<Stored_Drug>()
-        //        .HasKey(c => new { c.Branch_ID, c.DrugWithExpirationID });
+        //    modelBuilder.Entity<Replace_Drug>()
+        //        .HasKey(c => new { c.bra, c.DrugWithExpirationID });
         //}
 
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+            //modelBuilder.Entity<Replace_Drug>()
+            //    .HasOptional(a => a.Branch_To)
+            //    .WithOptionalDependent()
+            //    .WillCascadeOnDelete(false);
+            //var one = modelBuilder.Entity<Replace_Drug>();
+            ////var two = modelBuilder.Entity<Replace_Drug>();
+            //one.HasRequired(t => t.Stored_Drug)
+            // .WithMany(s => s.)
+            // .HasForeignKey(t => new { t.TwoId, t.ThreeId });
 
+        //}
 
 
 
