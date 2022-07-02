@@ -18,9 +18,11 @@ namespace PharmacyStock.Classes
         public int BranchID { get; set; }
 
         [Required]
+        [StringLength(20, MinimumLength = 3, ErrorMessage = "Use 3-20 characters")]
         public string Name { get; set; }
-        
+
         public string MobileNumber { get; set; }
+
 
         [ForeignKey("Branch")]
         public int Branch_ID { get; set; }
@@ -30,11 +32,6 @@ namespace PharmacyStock.Classes
         public virtual List<SupplyBill> supplyBills { get; set; }
 
         public virtual Account Accounts { get; set; }
-
-
-
-
-
 
     }
 }

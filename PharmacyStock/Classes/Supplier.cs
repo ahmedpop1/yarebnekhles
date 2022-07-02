@@ -14,8 +14,10 @@ namespace PharmacyStock.Classes
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
         public int ID { get; set; }
-        [Required]
+       [Required]
+       [StringLength(20, MinimumLength = 3, ErrorMessage = "Use 3-20 characters")]
         public string Name { get; set; }
+        [Phone]
         public string Phone { get; set; }
         public virtual List<SupplyBill> supplyBills { get; set; }
 

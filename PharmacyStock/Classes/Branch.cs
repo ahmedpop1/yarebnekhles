@@ -12,6 +12,7 @@ namespace PharmacyStock.Classes
     {
         [Key]
         public int Branch_ID { get; set; }
+
         public string Branch_Name { get; set; }
 
         public string Branch_Address { get; set; }

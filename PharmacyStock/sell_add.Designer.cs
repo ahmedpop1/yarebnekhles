@@ -1,6 +1,6 @@
 ﻿namespace PharmacyStock
 {
-    partial class supp_add
+    partial class sell_add
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(supp_add));
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -39,21 +38,9 @@
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.suppliersBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pharmacyDBDataSet = new PharmacyStock.PharmacyDBDataSet();
-            this.suppliersTableAdapter = new PharmacyStock.PharmacyDBDataSetTableAdapters.SuppliersTableAdapter();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.suppliersBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pharmacyDBDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -105,7 +92,6 @@
             this.simpleButton4.Size = new System.Drawing.Size(101, 51);
             this.simpleButton4.TabIndex = 5;
             this.simpleButton4.Text = "Update";
-            this.simpleButton4.Click += new System.EventHandler(this.simpleButton4_Click);
             // 
             // simpleButton2
             // 
@@ -145,7 +131,6 @@
             this.simpleButton3.Size = new System.Drawing.Size(101, 51);
             this.simpleButton3.TabIndex = 5;
             this.simpleButton3.Text = "Add";
-            this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // gridView1
             // 
@@ -164,69 +149,12 @@
             this.gridView1});
             this.gridControl1.Click += new System.EventHandler(this.gridControl1_Click);
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(-23, -46);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView1.TabIndex = 2;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.AutoGenerateColumns = false;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.iDDataGridViewTextBoxColumn,
-            this.nameDataGridViewTextBoxColumn,
-            this.phoneDataGridViewTextBoxColumn});
-            this.dataGridView2.DataSource = this.suppliersBindingSource;
-            this.dataGridView2.Location = new System.Drawing.Point(233, 65);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(386, 219);
-            this.dataGridView2.TabIndex = 3;
-            // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            // 
-            // phoneDataGridViewTextBoxColumn
-            // 
-            this.phoneDataGridViewTextBoxColumn.DataPropertyName = "Phone";
-            this.phoneDataGridViewTextBoxColumn.HeaderText = "Phone";
-            this.phoneDataGridViewTextBoxColumn.Name = "phoneDataGridViewTextBoxColumn";
-            // 
-            // suppliersBindingSource
-            // 
-            this.suppliersBindingSource.DataMember = "Suppliers";
-            this.suppliersBindingSource.DataSource = this.pharmacyDBDataSet;
-            // 
-            // pharmacyDBDataSet
-            // 
-            this.pharmacyDBDataSet.DataSetName = "PharmacyDBDataSet";
-            this.pharmacyDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // suppliersTableAdapter
-            // 
-            this.suppliersTableAdapter.ClearBeforeFill = true;
-            // 
             // supp_add
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1030, 720);
-            this.Controls.Add(this.dataGridView2);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.panel1);
             this.Name = "supp_add";
@@ -235,10 +163,6 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.suppliersBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pharmacyDBDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -254,13 +178,5 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton3;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.GridControl gridControl1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private PharmacyDBDataSet pharmacyDBDataSet;
-        private System.Windows.Forms.BindingSource suppliersBindingSource;
-        private PharmacyDBDataSetTableAdapters.SuppliersTableAdapter suppliersTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phoneDataGridViewTextBoxColumn;
     }
 }

@@ -19,7 +19,7 @@ namespace PharmacyStock.Classes
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<SupplyBill> supplyBills { get; set; }
         public DbSet<Account> Accounts { get; set; }
-        public DbSet<Branch> Branchs { get; set; }
+        public DbSet <Branch> Branches { get; set; }
         public DbSet<Manger> Mangers { get; set; }
 
         public DbSet<Stored_Drug> Stored_Drugs { get; set; }

@@ -12,8 +12,9 @@ namespace PharmacyStock.Classes
         [Key]
         public int Manger_ID { get; set; }
 
+        [StringLength(20, MinimumLength = 3, ErrorMessage = "Use 3-20 characters")]
         public string Manger_Name { get; set; }
-
+        [Phone]
         public int Manger_Phone { get; set; }
 
 
