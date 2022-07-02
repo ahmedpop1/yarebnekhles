@@ -23,7 +23,12 @@ namespace PharmacyStock.Classes
 
 
         public int Quantity_Exist { get; set; }
+       // public ICollection<Branch> Branches { get; set; }
+        //public List<Branch1> Branches2 { get; set; }
 
-       
     }
+    //internal class Branch1 {
+    //    public Branch MyProperty { get; set; }
+       
+    //}
 }
