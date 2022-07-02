@@ -13,7 +13,10 @@ namespace PharmacyStock.Classes
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
+
+        [Required]
         public string Name { get; set; }
+        [Required]
         public string ScienceName { get; set; }
         public decimal? StorageTemprature { get; set; }
         [Column("Price", TypeName = "money")]

@@ -14,6 +14,7 @@ namespace PharmacyStock.Classes
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
         public int ID { get; set; }
+        [Required]
         public string Name { get; set; }
         public string Phone { get; set; }
         public virtual List<SupplyBill> supplyBills { get; set; }

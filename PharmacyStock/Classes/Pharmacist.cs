@@ -14,6 +14,7 @@ namespace PharmacyStock.Classes
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
         public int ID { get; set; }
+        [Required]
         public string Name { get; set; }
         public int MobileNumber { get; set; }
 
