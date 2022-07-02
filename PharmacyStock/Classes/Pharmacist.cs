@@ -14,9 +14,13 @@ namespace PharmacyStock.Classes
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
         public int ID { get; set; }
+
+        public int BranchID { get; set; }
+
         [Required]
         public string Name { get; set; }
-        public int MobileNumber { get; set; }
+        
+        public string MobileNumber { get; set; }
 
         [ForeignKey("Branch")]
         public int Branch_ID { get; set; }
