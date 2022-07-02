@@ -83,13 +83,24 @@
     <Compile Include="Category.Designer.cs">
       <DependentUpon>Category.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Account.cs" />
+    <Compile Include="Classes\Branch.cs" />
     <Compile Include="Classes\Drug.cs" />
     <Compile Include="Classes\DrugInSuppliedBill.cs" />
+    <Compile Include="Classes\DrugIn_SoldBill.cs" />
     <Compile Include="Classes\DrugWithExpiration.cs" />
+    <Compile Include="Classes\Manger.cs" />
     <Compile Include="Classes\Pharmacist.cs" />
     <Compile Include="Classes\PharmacyContext.cs" />
+    <Compile Include="Classes\Replace_Drug.cs" />
+    <Compile Include="Classes\Sell_Bill.cs" />
+    <Compile Include="Classes\Stored_Drug.cs" />
     <Compile Include="Classes\Supplier.cs" />
     <Compile Include="Classes\SupplyBill.cs" />
+    <Compile Include="Migrations\202207012017365_InitialCreate.cs" />
+    <Compile Include="Migrations\202207012017365_InitialCreate.designer.cs">
+      <DependentUpon>202207012017365_InitialCreate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="modification.cs">
       <SubType>Form</SubType>
@@ -146,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Category.resx">
       <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207012017365_InitialCreate.resx">
+      <DependentUpon>202207012017365_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="modification.resx">
       <DependentUpon>modification.cs</DependentUpon>
