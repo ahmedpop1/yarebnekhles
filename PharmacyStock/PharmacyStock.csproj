@@ -60,6 +60,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -114,17 +115,46 @@
     <Compile Include="Modification2.Designer.cs">
       <DependentUpon>Modification2.cs</DependentUpon>
     </Compile>
+    <Compile Include="PharmacyDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PharmacyDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sell.Designer.cs">
+      <DependentUpon>sell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sell_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sell_add.Designer.cs">
+      <DependentUpon>sell_add.cs</DependentUpon>
+    </Compile>
     <Compile Include="SMP.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SMP.Designer.cs">
       <DependentUpon>SMP.cs</DependentUpon>
     </Compile>
+    <Compile Include="pur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pur.Designer.cs">
+      <DependentUpon>pur.cs</DependentUpon>
+    </Compile>
     <Compile Include="supp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="supp.Designer.cs">
       <DependentUpon>supp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pur_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pur_add.Designer.cs">
+      <DependentUpon>pur_add.cs</DependentUpon>
     </Compile>
     <Compile Include="supp_add.cs">
       <SubType>Form</SubType>
@@ -155,11 +185,23 @@
     <EmbeddedResource Include="Modification2.resx">
       <DependentUpon>Modification2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="sell.resx">
+      <DependentUpon>sell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sell_add.resx">
+      <DependentUpon>sell_add.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SMP.resx">
       <DependentUpon>SMP.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="pur.resx">
+      <DependentUpon>pur.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="supp.resx">
       <DependentUpon>supp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pur_add.resx">
+      <DependentUpon>pur_add.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="supp_add.resx">
       <DependentUpon>supp_add.cs</DependentUpon>
@@ -178,6 +220,17 @@
       <DependentUpon>Toast.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="PharmacyDBDataSet.xsc">
+      <DependentUpon>PharmacyDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PharmacyDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PharmacyDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PharmacyDBDataSet.xss">
+      <DependentUpon>PharmacyDBDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
