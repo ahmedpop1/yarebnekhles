@@ -97,6 +97,12 @@
     <Compile Include="Classes\Stored_Drug.cs" />
     <Compile Include="Classes\Supplier.cs" />
     <Compile Include="Classes\SupplyBill.cs" />
+    <Compile Include="FrmInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInvoice.Designer.cs">
+      <DependentUpon>FrmInvoice.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\202207012017365_InitialCreate.cs" />
     <Compile Include="Migrations\202207012017365_InitialCreate.designer.cs">
       <DependentUpon>202207012017365_InitialCreate.cs</DependentUpon>
@@ -107,6 +113,24 @@
     </Compile>
     <Compile Include="modification.Designer.cs">
       <DependentUpon>modification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="purchasesbill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchasesbill.Designer.cs">
+      <DependentUpon>purchasesbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="supplies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supplies.Designer.cs">
+      <DependentUpon>supplies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sales.Designer.cs">
+      <DependentUpon>sales.cs</DependentUpon>
     </Compile>
     <Compile Include="Modification2.cs">
       <SubType>Form</SubType>
@@ -120,11 +144,11 @@
     <Compile Include="SMP.Designer.cs">
       <DependentUpon>SMP.cs</DependentUpon>
     </Compile>
-    <Compile Include="cust.cs">
+    <Compile Include="Pharmacist_add.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cust.Designer.cs">
-      <DependentUpon>cust.cs</DependentUpon>
+    <Compile Include="Pharmacist_add.Designer.cs">
+      <DependentUpon>Pharmacist_add.cs</DependentUpon>
     </Compile>
     <Compile Include="supp.cs">
       <SubType>Form</SubType>
@@ -132,11 +156,11 @@
     <Compile Include="supp.Designer.cs">
       <DependentUpon>supp.cs</DependentUpon>
     </Compile>
-    <Compile Include="cust_add .cs">
+    <Compile Include="pharmacist.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cust_add .Designer.cs">
-      <DependentUpon>cust_add .cs</DependentUpon>
+    <Compile Include="pharmacist.Designer.cs">
+      <DependentUpon>pharmacist.cs</DependentUpon>
     </Compile>
     <Compile Include="supp_add.cs">
       <SubType>Form</SubType>
@@ -158,11 +182,23 @@
     <EmbeddedResource Include="Category.resx">
       <DependentUpon>Category.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmInvoice.resx">
+      <DependentUpon>FrmInvoice.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202207012017365_InitialCreate.resx">
       <DependentUpon>202207012017365_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="modification.resx">
       <DependentUpon>modification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchasesbill.resx">
+      <DependentUpon>purchasesbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplies.resx">
+      <DependentUpon>supplies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sales.resx">
+      <DependentUpon>sales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modification2.resx">
       <DependentUpon>Modification2.cs</DependentUpon>
@@ -170,14 +206,14 @@
     <EmbeddedResource Include="SMP.resx">
       <DependentUpon>SMP.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cust.resx">
-      <DependentUpon>cust.cs</DependentUpon>
+    <EmbeddedResource Include="Pharmacist_add.resx">
+      <DependentUpon>Pharmacist_add.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="supp.resx">
       <DependentUpon>supp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cust_add .resx">
-      <DependentUpon>cust_add .cs</DependentUpon>
+    <EmbeddedResource Include="pharmacist.resx">
+      <DependentUpon>pharmacist.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="supp_add.resx">
       <DependentUpon>supp_add.cs</DependentUpon>

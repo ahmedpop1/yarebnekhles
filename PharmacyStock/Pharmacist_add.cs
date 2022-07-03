@@ -10,20 +10,21 @@ using System.Windows.Forms;
 
 namespace PharmacyStock
 {
-    public partial class Category : Form
+    public partial class Pharmacist_add: Form
     {
-        public Category()
+        public Pharmacist_add()
         {
             InitializeComponent();
         }
-        AddCategory add;
-        private void simpleButton3_Click(object sender, EventArgs e)
+
+        private void supp_Load(object sender, EventArgs e)
         {
-            if (add == null)
-            {
-                add = new AddCategory();
-            }
-            add.ShowDialog(); 
+
+        }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

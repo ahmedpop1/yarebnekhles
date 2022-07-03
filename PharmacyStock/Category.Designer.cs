@@ -54,15 +54,15 @@
             this.panel1.Controls.Add(this.simpleButton1);
             this.panel1.Controls.Add(this.simpleButton3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 436);
+            this.panel1.Location = new System.Drawing.Point(0, 663);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1030, 142);
+            this.panel1.Size = new System.Drawing.Size(1046, 96);
             this.panel1.TabIndex = 1;
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(643, 37);
+            this.textBox1.Location = new System.Drawing.Point(646, 31);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(248, 40);
             this.textBox1.TabIndex = 6;
@@ -74,7 +74,7 @@
             this.simpleButton5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton5.ImageOptions.Image")));
             this.simpleButton5.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
             this.simpleButton5.ImageOptions.SvgImageSize = new System.Drawing.Size(4, 4);
-            this.simpleButton5.Location = new System.Drawing.Point(940, 27);
+            this.simpleButton5.Location = new System.Drawing.Point(923, 22);
             this.simpleButton5.Name = "simpleButton5";
             this.simpleButton5.Size = new System.Drawing.Size(58, 51);
             this.simpleButton5.TabIndex = 5;
@@ -86,7 +86,7 @@
             this.simpleButton4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
             this.simpleButton4.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
             this.simpleButton4.ImageOptions.SvgImageSize = new System.Drawing.Size(4, 4);
-            this.simpleButton4.Location = new System.Drawing.Point(441, 27);
+            this.simpleButton4.Location = new System.Drawing.Point(374, 27);
             this.simpleButton4.Name = "simpleButton4";
             this.simpleButton4.Size = new System.Drawing.Size(101, 51);
             this.simpleButton4.TabIndex = 5;
@@ -99,7 +99,7 @@
             this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
             this.simpleButton2.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
             this.simpleButton2.ImageOptions.SvgImageSize = new System.Drawing.Size(4, 4);
-            this.simpleButton2.Location = new System.Drawing.Point(308, 27);
+            this.simpleButton2.Location = new System.Drawing.Point(257, 27);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(101, 51);
             this.simpleButton2.TabIndex = 5;
@@ -112,7 +112,7 @@
             this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
             this.simpleButton1.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
             this.simpleButton1.ImageOptions.SvgImageSize = new System.Drawing.Size(4, 4);
-            this.simpleButton1.Location = new System.Drawing.Point(172, 27);
+            this.simpleButton1.Location = new System.Drawing.Point(133, 27);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(101, 51);
             this.simpleButton1.TabIndex = 5;
@@ -125,11 +125,12 @@
             this.simpleButton3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
             this.simpleButton3.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
             this.simpleButton3.ImageOptions.SvgImageSize = new System.Drawing.Size(4, 4);
-            this.simpleButton3.Location = new System.Drawing.Point(26, 27);
+            this.simpleButton3.Location = new System.Drawing.Point(11, 27);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(101, 51);
             this.simpleButton3.TabIndex = 5;
             this.simpleButton3.Text = "Add";
+            this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // gridControl1
             // 
@@ -137,7 +138,7 @@
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1030, 436);
+            this.gridControl1.Size = new System.Drawing.Size(1046, 663);
             this.gridControl1.TabIndex = 2;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -151,7 +152,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1030, 578);
+            this.ClientSize = new System.Drawing.Size(1046, 759);
             this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

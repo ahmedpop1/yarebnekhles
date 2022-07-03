@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace PharmacyStock
 {
-    public partial class supp_add : Form
+    public partial class supplies: Form
     {
-        public supp_add()
+        public supplies()
         {
             InitializeComponent();
-
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -23,23 +22,9 @@ namespace PharmacyStock
 
         }
 
-        private void supp_add_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gridControl1_Click(object sender, EventArgs e)
-        {
-
-        }
-        supp add;
         private void simpleButton3_Click(object sender, EventArgs e)
         {
-            if (add == null)
-            {
-                add = new supp();
-            }
-            add.ShowDialog();
+
         }
     }
 }

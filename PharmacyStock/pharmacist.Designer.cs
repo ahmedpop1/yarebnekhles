@@ -1,6 +1,6 @@
 ﻿namespace PharmacyStock
 {
-    partial class cust_add
+    partial class pharmacist
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(supp_add));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pharmacist));
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
@@ -131,6 +131,7 @@
             this.simpleButton3.Size = new System.Drawing.Size(101, 51);
             this.simpleButton3.TabIndex = 5;
             this.simpleButton3.Text = "Add";
+            this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // gridView1
             // 
@@ -149,7 +150,7 @@
             this.gridView1});
             this.gridControl1.Click += new System.EventHandler(this.gridControl1_Click);
             // 
-            // supp_add
+            // pharmacist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -157,7 +158,7 @@
             this.ClientSize = new System.Drawing.Size(1030, 720);
             this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.panel1);
-            this.Name = "supp_add";
+            this.Name = "pharmacist";
             this.Load += new System.EventHandler(this.supp_add_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

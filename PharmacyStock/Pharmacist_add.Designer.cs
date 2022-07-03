@@ -1,6 +1,6 @@
 ﻿namespace PharmacyStock
 {
-    partial class cust
+    partial class Pharmacist_add
     {
         /// <summary>
         /// Required designer variable.

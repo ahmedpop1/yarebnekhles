@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PharmacyStock
 {
-    public partial class cust_add : Form
+    public partial class pharmacist: Form
     {
-        public cust_add()
+        public pharmacist()
         {
             InitializeComponent();
         }
@@ -30,6 +30,16 @@ namespace PharmacyStock
         private void gridControl1_Click(object sender, EventArgs e)
         {
 
+        }
+        Pharmacist_add add;
+        private void simpleButton3_Click(object sender, EventArgs e)
+        {
+            
+            if (add == null)
+            {
+                add = new Pharmacist_add();
+            }
+            add.ShowDialog();
         }
     }
 }
