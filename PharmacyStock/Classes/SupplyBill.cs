@@ -21,7 +21,9 @@ namespace PharmacyStock.Classes
        
        // [ForeignKey("Drug")]
        // public int DrugID { get; set; }
-        public int TotalPrice { get; set; }
+        public double? TotalPrice { get; set; }
+
+        public double Selling_Price { get; set; }
         public DateTime DateofEntry { get; set; }
        // public int MyProperty { get; set; }
         public Supplier Supplier { get; set; }

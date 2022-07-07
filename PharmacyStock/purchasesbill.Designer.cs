@@ -84,7 +84,7 @@ namespace PharmacyStock
             this.txtInvNum1.Name = "txtInvNum1";
             this.txtInvNum1.Size = new System.Drawing.Size(245, 30);
             this.txtInvNum1.TabIndex = 3;
-            this.txtInvNum1.Text = "00000123";
+            this.txtInvNum1.Text = "929292929";
             this.txtInvNum1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3

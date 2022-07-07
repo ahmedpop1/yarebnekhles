@@ -16,7 +16,10 @@ namespace PharmacyStock
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SMP());
+            Application.Run(new pur_add());
+          //  PharmacyStock.Program.Main();
+           
+            
         }
     }
 }

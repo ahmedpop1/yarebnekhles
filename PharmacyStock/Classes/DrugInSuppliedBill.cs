@@ -21,9 +21,10 @@ namespace PharmacyStock.Classes
         public int DrugWithExpirationID { get; set; }
         public  DrugWithExpiration Drugs { get; set; }
 
-
-       
         public int Amount { get; set; }
+
+      
+
     }
     //internal class SupplyBill1
     //{

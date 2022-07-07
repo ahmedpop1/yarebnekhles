@@ -12,6 +12,9 @@ namespace PharmacyStock.Classes
         [Key]
         public String UserName { get; set; }
 
-        public int Password { get; set; }
+        public String Password { get; set; }
+
+        public String User_Roll { get; set; }
+        public String User_State { get; set; }
     }
 }

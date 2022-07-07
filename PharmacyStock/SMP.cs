@@ -12,11 +12,13 @@ namespace PharmacyStock
 {
     public partial class SMP : Form
     {
+      
         public SMP()
         {
             InitializeComponent();
             this.Location
-      = new Point(10, 20);
+           = new Point(10, 20);
+
         }
 
 
@@ -167,6 +169,7 @@ namespace PharmacyStock
             suppliees.Dock = DockStyle.Fill;
 
             suppliees.Show();
+            
             //Environment.Exit(0);
         }
         //Customers

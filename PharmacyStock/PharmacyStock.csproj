@@ -114,11 +114,29 @@
     <Compile Include="modification.Designer.cs">
       <DependentUpon>modification.cs</DependentUpon>
     </Compile>
+    <Compile Include="pur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pur.Designer.cs">
+      <DependentUpon>pur.cs</DependentUpon>
+    </Compile>
     <Compile Include="purchasesbill.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="purchasesbill.Designer.cs">
       <DependentUpon>purchasesbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pur_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pur_add.Designer.cs">
+      <DependentUpon>pur_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sell.Designer.cs">
+      <DependentUpon>sell.cs</DependentUpon>
     </Compile>
     <Compile Include="supplies.cs">
       <SubType>Form</SubType>
@@ -191,8 +209,17 @@
     <EmbeddedResource Include="modification.resx">
       <DependentUpon>modification.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="pur.resx">
+      <DependentUpon>pur.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="purchasesbill.resx">
       <DependentUpon>purchasesbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pur_add.resx">
+      <DependentUpon>pur_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sell.resx">
+      <DependentUpon>sell.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="supplies.resx">
       <DependentUpon>supplies.cs</DependentUpon>
